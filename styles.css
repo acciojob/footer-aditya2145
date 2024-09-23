@@ -7,4 +7,100 @@ body{
 	height: 100vh;
 	background-color: black;
 	color: #fff;
+	font-family: serif;
+	letter-spacing: 1.1px;
 }
+
+li{
+	list-style: none;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding: 2rem 3rem;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.media-icons{
+	display: flex;
+	gap: 1rem;
+}
+
+.link-boxes{
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	line-height: 1.5rem;
+}
+
+.link-heading{
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.link-flex{
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.bottom-details{
+	display: flex;
+	justify-content: space-between;
+	background-color: #2C303A;
+	padding: 1rem 3rem;
+}
+
+.instagram{
+    background-color: rgb(225, 51, 80);
+}
+.twitter{
+    background-color: rgb(36, 159, 207);
+}
+.facebook{
+    background-color: #4267B2;
+}
+
+.linkedin{
+    background-color: rgb(14, 129, 174);
+}
+
+.youtube{
+    background-color: red;
+}
+
+.media-icons a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 2px;
+	width: 2rem;
+	height: 2rem;
+}
+
+ul a, ul, .bottom-details{
+	color: rgb(211, 203, 203);
+}
+
+.logo_name, .link-heading{
+	color: rgb(242, 237, 237);
+}
+
